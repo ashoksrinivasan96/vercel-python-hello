@@ -2,5 +2,8 @@
   "buildCommand": "next build",
   "outputDirectory": ".next",
   "devCommand": "next dev",
-  "framework": "nextjs"
+  "framework": "nextjs",
+  "rewrites": [
+    { "source": "/api/python_hello", "destination": "/api/python_hello.py" }
+  ]
 }

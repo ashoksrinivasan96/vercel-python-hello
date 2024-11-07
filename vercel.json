@@ -1,0 +1,13 @@
+{
+    "buildCommand": "next build",
+    "outputDirectory": ".next",
+    "devCommand": "next dev",
+    "framework": "nextjs",
+    "functions": {
+      "api/hello.py": {
+        "runtime": "python3.9"
+      }
+    }
+  }
+  
+  
